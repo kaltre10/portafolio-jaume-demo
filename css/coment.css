@@ -1,0 +1,36 @@
+.coment{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.coment p{
+    font: var(--h5);
+    font-weight: normal;
+    color: var(--purple);
+}
+
+.coment h2{
+    font: var(--h5);
+    color: var(--purple);
+}
+
+.coment img{
+    margin: 24px 0px;
+    width: 80px;
+}
+
+@media screen and (min-width: 768px){
+    .coment{
+        height:600px;
+    }
+
+    .coment p{
+        max-width: 1000px;
+        font-size: 34px;
+    }
+}

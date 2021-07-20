@@ -1,0 +1,55 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    text-align: center;
+    z-index: 1;
+}
+
+.card-coment{
+    max-width: 1132px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 24px;
+    backdrop-filter: blur(39.7657px);
+    border-radius: 24px;
+    border-top-color: rgba(255, 255, 255, 0.548);
+    border-top-style: inset;
+    border-left-color: rgba(255, 255, 255, 0.521);
+    border-left-style: inset
+}
+
+.card p {
+    font: var(--body1);
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.card p:nth-of-type(2){
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    color: var(--purple);
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px){
+    .card{
+        height: 800px;
+    }
+    
+    .card-coment{
+        padding: 80px;
+    }
+    
+    .card p {
+        font-size: 34px;
+        line-height: 55px;
+    }
+
+    .card p:nth-of-type(2){
+        font-size: 24px;
+        line-height: 39px;
+    }
+}
